@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    max-width: 35%;
+    max-height: 15rem;
+}
+.title{
+    text-align: center;
+}
+.cards{
+    margin-right: 10rem;
+    padding-left: 8.5rem;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            150px,
+            1fr
+            )
+            );
+            gap: 16rem;
+}
+
+.error{
+    text-align: center;
+    background-color: red;
+}
